@@ -1,6 +1,15 @@
 #include <iostream>
 #include <cmath> // for abs()
 using namespace std;
+public: 
+    a1;
+    b1;
+    c1;
+class Polynomial{
+    friend istream& operator>>(istream&is, Polynomial poly)
+
+
+};
 
 int main() {
     Polynomial p1, p2;
