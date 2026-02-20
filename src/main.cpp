@@ -1,11 +1,12 @@
 #include <iostream>
 #include <cmath> // for abs()
 using namespace std;
-public: 
+
+class Polynomial{
+public:
     double a;
     double b;
     double c;
-class Polynomial{
     friend istream& operator>>(istream&is, Polynomial poly){
         cout << "Enter Coefficient x^2: ";
         is >> poly.a;
@@ -37,7 +38,8 @@ class Polynomial{
 };
 
 int main() {
-    Polynomial p1, p2;
+    Polynomial p1;
+   Polynomial p2;
 
     cout << "Polynomial 1:\n";
     cin >> p1;
