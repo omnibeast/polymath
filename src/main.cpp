@@ -2,9 +2,9 @@
 #include <cmath> // for abs()
 using namespace std;
 public: 
-    a1;
-    b1;
-    c1;
+    double a;
+    double b;
+    double c;
 class Polynomial{
     friend istream& operator>>(istream&is, Polynomial poly)
 
